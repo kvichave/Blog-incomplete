@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+{% block title %}<title>Register</title>{% endblock title %}
+</head>
+<body>
+
+{% block body %}
+<h1 class="text-center my-5">Register</h1>
+<div class="container">
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">First Name</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Last Name</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputEmail" class="form-label">User Name</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="eg.Kunal">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Email Address</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="kunal@gmail.com">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Password</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Password 2</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+</div>
+{% endblock body %}
+
+
+
+
+</body>
+</html>
